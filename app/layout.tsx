@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Noto_Serif_SC, Ma_Shan_Zheng } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 });
@@ -21,13 +21,13 @@ const maShanZheng = Ma_Shan_Zheng({
 
 export const metadata: Metadata = {
   title: 'Imlek Greeting Generator - Year of the Fire Horse 2026',
-  description: 'Create beautiful animated Imlek greetings with fire horse themes. Celebrate Chinese New Year with personalized digital cards!',
+  description: 'Imlek greetings with fire horse',
   keywords: ['Imlek', 'Chinese New Year', 'Fire Horse', 'Greeting Card', '2026'],
   openGraph: {
     type: 'website',
     title: 'Imlek Greeting Generator - Year of the Fire Horse 2026',
     description: 'Create beautiful animated Imlek greetings with fire horse themes.',
-    images: ['/og-image.png'],
+    images: ['/favicon.ico'],
   },
 };
 
