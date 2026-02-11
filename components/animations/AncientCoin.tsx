@@ -11,7 +11,6 @@ export function AncientCoin({ className = '', size = 60 }: AncientCoinProps) {
   return (
     <motion.div
       className={`relative ${className}`}
-      style={{ width: size, height: size }}
       animate={{ rotateY: 360 }}
       transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
       style={{
